@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/ad5c36405b.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+
+  <!-- Title -->
+  <title>Hårstudion</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/images/scissor-icon.png" class="logo" alt="Icon">
+        Hårstudion
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#services">Tjänster</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Om</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Priser</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Galleri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn custom-btn" href="#contact">Boka tid</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <p class="hero-kicker mb-2">Frisör i din stad</p>
+        <h1 class="hero-title">Hårstudion</h1>
+        <p class="hero-sub">Moderna klippningar och stilfull styling - en lugn stund och ett resultat du gillar.</p>
+
+        <div class="d-flex gap-2 flex-wrap">
+          <a class="btn custom-btn" href="#contact">Boka tid</a>
+          <a class="btn btn-ghost" href="#services">Se tjänster</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-5 section-soft" id="services">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="mb-2">Tjänster</h2>
+        <p class="text-muted mb-0">Välj något enkelt - eller be oss rekommendera.</p>
+      </div>
+
+      <div class="services-wrap">
+        <div class="service-card">
+          <img src="assets/images/scissors.png" class="service-icon" alt="">
+          <p class="fw-semibold mb-0">Klippning</p>
+          <small class="text-muted">Dam / Herr / Barn</small>
+        </div>
+
+        <div class="divider-vertical" aria-hidden="true"></div>
+
+        <div class="service-card">
+          <img src="assets/images/dye.png" class="service-icon" alt="">
+          <p class="fw-semibold mb-0">Färgning</p>
+          <small class="text-muted">Slingor & helfärg</small>
+        </div>
+
+        <div class="divider-vertical" aria-hidden="true"></div>
+
+        <div class="service-card">
+          <img src="assets/images/straightener.png" class="service-icon" alt="">
+          <p class="fw-semibold mb-0">Styling</p>
+          <small class="text-muted">Fön & event</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-5" id="about">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="img-frame">
+            <img src="assets/images/about-img.jpg" class="w-100" alt="Salong">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="mb-3">Personligt. Professionellt. Enkelt.</h2>
+          <p class="text-muted">
+            Vi hjälper dig hitta en stil som passar din vardag. En snabb klippning eller en större förändring -
+            vi tar det steg för steg.
+          </p>
+
+          <ul class="list-unstyled mt-4">
+            <li class="d-flex gap-2 align-items-start mb-2">
+              <span>✔</span><span>Erfarna stylister & trygg konsultation</span>
+            </li>
+            <li class="d-flex gap-2 align-items-start mb-2">
+              <span>✔</span><span>Produkter vi själva står för</span>
+            </li>
+            <li class="d-flex gap-2 align-items-start">
+              <span>✔</span><span>Enkel bokning och snabba svar</span>
+            </li>
+          </ul>
+
+          <a class="btn custom-btn mt-3" href="#contact">Boka konsultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-5 section-soft" id="pricing">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="mb-2">Priser</h2>
+        <p class="text-muted mb-0">Transparent och enkelt. Exakt pris efter konsultation.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="price-card">
+            <h3 class="h5 mb-2">Klippning</h3>
+            <p class="mb-1 text-muted">Från</p>
+            <p class="display-6 mb-3">450 kr</p>
+            <small class="text-muted">Ca 30 - 45 min</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-card">
+            <h3 class="h5 mb-2">Klipp + tvätt</h3>
+            <p class="mb-1 text-muted">Från</p>
+            <p class="display-6 mb-3">590 kr</p>
+            <small class="text-muted">Ca 45 - 60 min</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-card">
+            <h3 class="h5 mb-2">Färg + klipp</h3>
+            <p class="mb-1 text-muted">Från</p>
+            <p class="display-6 mb-3">1 290 kr</p>
+            <small class="text-muted">Ca 90 - 150 min</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="py-5 section-soft" id="gallery">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="mb-2">Galleri</h2>
+        <p class="text-muted mb-0">Lite inspiration från salongen.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-6 col-md-4">
+          <div class="img-frame"><img src="assets/images/gallery-1.jpg" class="w-100" alt=""></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="img-frame"><img src="assets/images/gallery-2.jpg" class="w-100" alt=""></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="img-frame"><img src="assets/images/gallery-3.jpg" class="w-100" alt=""></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="img-frame"><img src="assets/images/gallery-4.jpg" class="w-100" alt=""></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="img-frame"><img src="assets/images/gallery-5.jpg" class="w-100" alt=""></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="img-frame"><img src="assets/images/gallery-6.jpg" class="w-100" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="py-5" id="reviews">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="mb-2">Omdömen</h2>
+        <p class="text-muted mb-0">Några ord från kunder.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="review-card">
+            <p class="mb-2">“Supernöjd! Lyhört och proffsigt.”</p>
+            <small class="text-muted">— Sara L. ⭐⭐⭐⭐⭐</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="review-card">
+            <p class="mb-2">“Bästa klippningen jag fått på länge.”</p>
+            <small class="text-muted">— Johan P. ⭐⭐⭐⭐⭐</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="review-card">
+            <p class="mb-2">“Härlig salong och fint resultat!”</p>
+            <small class="text-muted">— Emma K. ⭐⭐⭐⭐⭐</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-5 section-soft" id="contact">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="mb-2">Kontakt & bokning</h2>
+        <p class="text-muted mb-0">Skicka en förfrågan så återkommer vi snabbt.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="contact-card h-100">
+            <h3 class="h5 mb-3">Hårstudion</h3>
+            <p class="mb-2"><strong>Adress:</strong> Storgatan 12, 123 45 Stad</p>
+            <p class="mb-2"><strong>Telefon:</strong> 070-123 45 67</p>
+            <p class="mb-4"><strong>E-post:</strong> bokning@harstudion.se</p>
+
+            <h4 class="h6 mb-2">Öppettider</h4>
+            <p class="mb-1">Mån - Fre: 10:00 - 18:00</p>
+            <p class="mb-0">Lör: 10:00 - 14:00</p>
+
+            <a class="btn custom-btn mt-4" href="tel:+46701234567">Ring oss</a>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="contact-card">
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Namn</label>
+                  <input type="text" class="form-control" placeholder="Ditt namn" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">E-post</label>
+                  <input type="email" class="form-control" placeholder="din@mail.se" required>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Meddelande</label>
+                  <textarea class="form-control" rows="5" placeholder="Vad vill du boka? (t.ex. klippning + färg)"
+                    required></textarea>
+                </div>
+                <div class="col-12 d-flex gap-2 flex-wrap">
+                  <button class="btn custom-btn" type="submit">Skicka</button>
+                  <a class="btn btn-ghost" href="#tjanster">Se tjänster igen</a>
+                </div>
+                <div class="col-12">
+                  <small class="text-muted">Genom att skicka godkänner du att vi kontaktar dig angående din
+                    förfrågan.</small>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer mt-auto">
+    <div class="container footer-inner">
+      <p class="mb-0 text-muted">© 2026 Hårstudion</p>
+      <ul class="footer-links">
+        <li><a href="#tjanster">Tjänster</a></li>
+        <li><a href="#om">Om</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
